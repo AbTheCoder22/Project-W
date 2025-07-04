@@ -1,0 +1,146 @@
+body{
+    /* background: #3183a3;
+    background: linear-gradient(-90deg, rgba(49, 131, 163, 1) 0%, rgba(106, 217, 152, 1) 100%); */
+    background-image:url(Designs/legendary5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+
+/* Navigation menu */
+#Nav-menu{
+    position: absolute;
+    top:15px;
+    left:35px;
+}
+.button-container {
+    display: flex;
+    background: linear-gradient(to right, rgba(49, 131, 163), rgba(106, 217, 152));
+    width: 1200px;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.button {
+  outline: 0 !important;
+  border: 0 !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.icon {
+  font-size: 20px;
+}
+/* Navigation menu end */
+
+/* Main div */
+#container_title{
+    position: absolute;
+    top:15%;
+    left: 35%;
+    width:auto;
+    height: auto;
+    padding:auto;
+    text-align: center;
+}
+/* Main div end */
+
+/* Project W title design */
+
+#pjw{
+    position: relative;
+    right:5%;
+    top:1%;
+    font-size: 110px;
+    font-family:'Playfair Display';
+    margin: 0%;
+    background: linear-gradient(90deg, #bef565 0%, #9ce3ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+#pjw:hover{
+    -webkit-text-stroke: 1.5px #ff0000;
+    transition: 0.3s ease-in-out;
+}
+
+/* Project W title design end*/
+
+/* Homepage links */
+
+#hp_buylink{
+    position: relative;
+    align-items: center;
+    left: -15px;
+    top:25px;
+
+    width: 500px;
+}
+
+.hp_link{
+    display: inline-block;
+    position: relative;
+    background-color: azure;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    font-weight:normal;
+
+    -webkit-text-stroke: 0.2px red;
+
+    border: solid 0.5px black;
+    border-radius: 50px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    margin:40px;
+
+}
+.hp_link:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+#link2{
+    background-color: beige;
+}
+/* Homepage links end */
+
+/* Homepage Quote */
+
+/* #hp_quote{
+    position: relative;
+    top: 100px;
+
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    font-weight: bold;
+
+    text-align: center;
+}
+#part1{
+    color:red;
+}
+#part2{
+    color:white;
+} */
+
+/* Homepage Quote End */
